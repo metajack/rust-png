@@ -6,3 +6,9 @@
 *-test
 /Makefile
 /test_store.png
+/.*.cmake-trigger
+/.ninja*
+/CMakeCache.txt
+/CMakeFiles
+*.ninja
+/cmake_install.cmake

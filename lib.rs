@@ -7,7 +7,7 @@
 // option. This file may not be copied, modified, or distributed
 // except according to those terms.
 
-#[pkgid="rust-png#0.1"];
+#[pkgid="github.com/mozilla-servo/rust-png#0.1"];
 #[feature(managed_boxes)];
 
 extern mod std;

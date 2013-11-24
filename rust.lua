@@ -325,5 +325,5 @@ function rust.library(lib_path, deps)
   local inputs = {lib_path}
   inputs["extra_inputs"] = deps
 
-  tup.rule(inputs, "rustc --lib " .. lib_path, output)
+  tup.rule(inputs, RUSTC .. " " .. RUSTFLAGS .. " --lib " .. lib_path, output)
 end
